@@ -1,4 +1,6 @@
 SpreeMulti::Application.routes.draw do
+  mount Spree::Core::Engine, :at => '/'
+
   # The priority is based upon order of creation:
   # first created -> highest priority.
 

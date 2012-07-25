@@ -11,8 +11,6 @@ end
 
 module SpreeMulti
   class Application < Rails::Application
-    config.middleware.use "SeoAssist"
-    config.middleware.use "RedirectLegacyProductUrl"
 
     config.to_prepare do
       #loads application's model / class decorators
